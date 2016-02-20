@@ -521,3 +521,30 @@ summary {
     color: $white;
   }
 }
+
+.dictionary-item {
+  a {
+	width: 116px;
+	height: 112px;
+	list-style: none;
+	text-align: center;
+	float: left;
+	margin-left: 15px;
+	color: $white;
+	font-size: 101px;
+	text-decoration: none;
+	margin-top: 15px;
+	line-height: 102px
+  }
+}
+
+.dictionary-active {
+  background: $sidebar-background;
+  &:hover {
+    background: $sidebar-link-highlight;
+  }
+}
+
+.dictionary-inactive {
+  background: $gray;
+}
